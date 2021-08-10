@@ -1,0 +1,83 @@
+p{
+    margin-bottom: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h1,h2,h3{
+   font-weight: 400;
+}
+h1{
+    font-size: 36px;
+    margin-bottom: 0%;
+}
+h2{
+    font-size: 32px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 8px;
+   }
+ ul li {
+     margin-bottom: 20px;
+ }
+.header-title, #header{
+    font-size: 18px;
+    border: none;
+    margin-bottom: 10px;
+}
+#header{
+    margin-bottom: 32px;
+    text-align: center;
+}
+#footer{
+    margin-top: 64px;
+    text-align: center;
+}
+@font-face{
+    font-family: Cormorant;
+    src:url(../assets/fonts/Cormorant-Bold.ttf)
+
+font-family: Cormorant;
+src:url(../assets/fonts/Cormorant-Regular.ttf)
+;
+}
+/*body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.logo{
+    color: #333;
+    font-size: 18px;
+    line-height: normal;
+    font-family:'Cormorant',
+    serif;
+   }
+   .nav{
+       color: #616161;
+       font-weight: bold;
+   }
+   .interview{
+       color: #333;
+       font: 18px / 1.5,
+       'Cormorant',
+       serif;
+       
+   }
+    .interview-header{
+        color: #333;
+        font:bold 50px / 1.2em,
+        'Cormorant',
+        serif;
+    }
+    . .interview-description{
+        color: #686868;
+        font-family:sans-serif;
+    }
+    .interview-footer{
+     font-size: 12px;
+     line-height: 1.25;
+text-align:right;
+    }
+    .interview-text{
+        font-size: 20px;
+        line-height: 1.75;
+        text-align: justify;
+    }
