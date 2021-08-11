@@ -38,6 +38,31 @@ font-family: Cormorant;
 src:url(../assets/fonts/Cormorant-Regular.ttf)
 ;
 }
+table{
+    border: olive solid 1px;
+    margin: 20px auto;
+        border-collapse: collapse;
+        width: 50%
+     
+}
+td,th{
+     border: olive solid 1px;
+     padding: 10px;
+     text-align: center;
+     vertical-align: middle;
+      }
+.bg-gray{
+    background-color: rgb(240, 229, 220);
+}
+.my-mail{
+    border: none;
+}
+.my-mail td,
+.my-mail tr {
+    border: none;
+    border-bottom: olive solid 1px;
+}
+
 /*body{
     font-size: 16px;
     line-height: 1.5;
