@@ -62,7 +62,84 @@ td,th{
     border: none;
     border-bottom: olive solid 1px;
 }
-
+.t-1{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+}
+.t-1 .red-1,
+.t-1 .green-1,
+.t-1 .blou-1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+   
+} 
+.red-1{
+    background-color: tomato;
+}
+.green-1{
+    background-color: green;
+    left: 100px;
+}
+.blou-1{
+   background-color: blue;
+   left: 200px;
+   bottom: 200px;
+}
+.t-2 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+ position: relative
+ }
+.t-2 .red-2,
+.t-2 .green-2,
+.t-2 .blou-2 {
+    width: 100px;
+    height: 100px;
+   
+}
+    .red-2{
+       background-color: tomato;
+       position: absolute;
+       bottom: 100px;
+    }
+    .green-2{
+        background-color: green;
+        position: absolute;
+        left: 100px;
+    }
+    .blou-2{
+       background-color: blue;
+       position: absolute;
+       left: 200px;
+       bottom: 100px;
+    }
+    .wrap{
+        width: 500px;
+        height: 10%;
+        background-color: rgb(204, 195, 184);
+        color: rgb(26, 30, 39);
+    }
+    .flt{
+        width: 50%;
+        height: 100px;
+        background-color: aliceblue;
+        border: black 1px solid;
+        float: left;
+    }
+    .flt1 {
+        width: 50%;
+        height: 100px;
+        background-color: rgb(75, 150, 216);
+        border: rgb(252, 141, 141) 1px solid;
+        float: left;}
+        .fixcler{
+            clear: both;
+        }
 /*body{
     font-size: 16px;
     line-height: 1.5;
