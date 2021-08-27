@@ -1,0 +1,253 @@
+p{
+    margin-bottom: 12px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+h1,h2,h3{
+   font-weight: 400;
+}
+h1{
+    font-size: 36px;
+    margin-bottom: 0%;
+}
+h2{
+    font-size: 32px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 8px;
+   }
+ ul li {
+     margin-bottom: 20px;
+ }
+.header-title, #header{
+    font-size: 18px;
+    border: none;
+    margin-bottom: 10px;
+}
+#header{
+    margin-bottom: 32px;
+    text-align: center;
+}
+#footer{
+    margin-top: 64px;
+    text-align: center;
+}
+@font-face{
+    font-family: Cormorant;
+    src:url(../assets/fonts/Cormorant-Bold.ttf)
+
+font-family: Cormorant;
+src:url(../assets/fonts/Cormorant-Regular.ttf)
+;
+}
+table{
+    border: olive solid 1px;
+    margin: 20px auto;
+        border-collapse: collapse;
+        width: 50%
+     
+}
+td,th{
+     border: olive solid 1px;
+     padding: 10px;
+     text-align: center;
+     vertical-align: middle;
+      }
+.bg-gray{
+    background-color: rgb(240, 229, 220);
+}
+.my-mail{
+    border: none;
+}
+.my-mail td,
+.my-mail tr {
+    border: none;
+    border-bottom: olive solid 1px;
+}
+.t-1{
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+}
+.t-1 .red-1,
+.t-1 .green-1,
+.t-1 .blou-1{
+    width: 100px;
+    height: 100px;
+    position: relative;
+   
+} 
+.red-1{
+    background-color: tomato;
+}
+.green-1{
+    background-color: green;
+    left: 100px;
+}
+.blou-1{
+   background-color: blue;
+   left: 200px;
+   bottom: 200px;
+}
+.t-2 {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+ position: relative
+ }
+.t-2 .red-2,
+.t-2 .green-2,
+.t-2 .blou-2 {
+    width: 100px;
+    height: 100px;
+   
+}
+    .red-2{
+       background-color: tomato;
+       position: absolute;
+       bottom: 100px;
+    }
+    .green-2{
+        background-color: green;
+        position: absolute;
+        left: 100px;
+    }
+    .blou-2{
+       background-color: blue;
+       position: absolute;
+       left: 200px;
+       bottom: 100px;
+    }
+    .wrap{
+        width: 500px;
+        height: 10%;
+        background-color: rgb(204, 195, 184);
+        color: rgb(26, 30, 39);
+    }
+    .flt{
+        width: 50%;
+        height: 100px;
+        background-color: aliceblue;
+        border: black 1px solid;
+        float: left;
+    }
+    .flt1 {
+        width: 50%;
+        height: 100px;
+        background-color: rgb(75, 150, 216);
+        border: rgb(252, 141, 141) 1px solid;
+        float: left;}
+        .fixcler{
+            clear: both;
+        }
+        .grid-container{
+            width: 50%;
+            height: fit-content;
+            background-color: cornsilk;
+            display: grid;
+           grid-template-areas: "lorem lorem lorem"
+           "colum1 colum2 colum3"
+           "footer footer footer";
+           grid-template-rows: 1fr 5fr 2fr;
+           grid-template-columns: 2fr 3fr 5fr;
+        }
+        #title1{
+            color: rgb(22, 20, 20);
+            background-color: rgb(58, 212, 58);
+            grid-area: lorem;
+        }
+        .colum1,
+        .colum2,
+        .colum3{background-color: rgb(204, 195, 184);
+        color: rgb(26, 30, 39);
+        padding: 10px;
+        margin: 10px;
+        grid-area: colum1;
+    }
+    .colum2{
+        grid-area: colum2;
+    }
+     .colum3 {
+         grid-area: colum3;
+     }
+    .footer{
+         color: rgb(90, 87, 87);
+         background-color: rgb(163, 211, 163);
+         grid-area: footer;
+    }
+    .colum1::after{
+      content: "hello";
+      margin-left: 10px;
+    }
+    .colum1::before, .colum2::before, .colum3::before{
+        content: "***";
+        color: rgb(75, 150, 216);
+   display: block;
+
+    }
+    a{
+        color: teal;
+        text-decoration: none;
+    }
+    a:hover{
+        color: springgreen;
+       text-decoration: none;
+       cursor: s-resize;
+    }
+    a:visited{
+       color: yellow;
+    }
+
+
+
+    }
+    .size-800,
+    .size-500,
+    .size-300 {
+        width: 300px;
+        height: 50px;
+        background-color: rgb(36, 196, 58);
+        margin: 10px; ; 
+    }
+/*body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+.logo{
+    color: #333;
+    font-size: 18px;
+    line-height: normal;
+    font-family:'Cormorant',
+    serif;
+   }
+   .nav{
+       color: #616161;
+       font-weight: bold;
+   }
+   .interview{
+       color: #333;
+       font: 18px / 1.5,
+       'Cormorant',
+       serif;
+       }
+    .interview-header{
+        color: #333;
+        font:bold 50px / 1.2em,
+        'Cormorant',
+        serif;
+    }
+    . .interview-description{
+        color: #686868;
+        font-family:sans-serif;
+    }
+    .interview-footer{
+     font-size: 12px;
+     line-height: 1.25;
+text-align:right;
+    }
+    .interview-text{
+        font-size: 20px;
+        line-height: 1.75;
+        text-align: justify;
+    }
